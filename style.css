@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Pattaya';
+}
+header{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    background: rgba(153, 85, 176, 0.63);
+}
+
+nav ul {
+    list-style: none;
+    background: rgba(194, 123, 218, 0.63);
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+}
+
+ul li a{
+    color: white;
+    text-transform: uppercase;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background: #000000;
+
+}
+
