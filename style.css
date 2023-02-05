@@ -9,8 +9,8 @@ body{
 }
 header{
     width: 100%;
-    font-size: 70px;
-    padding: 50px;
+    font-size: 60px;
+    padding: 40px;
     text-align: center;
     background: rgba(153, 85, 176, 0.63);
 }
@@ -131,4 +131,14 @@ img{
     font-family: 'Poppins';
     font-size: 60px;
     color: #000000;
+}
+
+.Contactme{
+    width: 100%;
+    background: rgba(201, 182, 207, 0.63);
+    padding-top: 2%;
+}
+.Contactme img{
+    width: 2%;
+    height: 2%;
 }
