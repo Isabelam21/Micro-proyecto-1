@@ -1,5 +1,4 @@
-var imagenes = ['ima4.jpeg','https://img.interempresas.net/fotos/1795779.jpeg','https://escueladeposgrado.edu.pe/wp-content/uploads/2021/12/Ingenieri%CC%81adesistemasenmexico.jpg','ima3.jpeg','ima4.jpeg'],
-cont = 0;
+var imagenes = ['x','https://img.interempresas.net/fotos/1795779.jpeg','https://escueladeposgrado.edu.pe/wp-content/uploads/2021/12/Ingenieri%CC%81adesistemasenmexico.jpg','ima3.jpeg','ima4.jpeg'],cont = 0;
 
 function carrousel(contenedor){
   contenedor.addEventListener('click', e => {
