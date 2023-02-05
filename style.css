@@ -9,15 +9,14 @@ body{
 }
 header{
     width: 100%;
-    font-size: 70px;
     padding: 50px;
     text-align: center;
-    background: rgba(201, 182, 207, 0.63);
+    background: rgba(153, 85, 176, 0.63);
 }
 
 nav ul {
     list-style: none;
-    background: rgba(35, 0, 46, 0.384);
+    background: rgba(194, 123, 218, 0.63);
     text-align: center;
 }
 nav ul li{
@@ -35,75 +34,10 @@ ul li a{
 
 nav ul li:hover{
     background: #000000;
-    border-radius: 50px;
 
 }
 
-img{
-    width: 100%;
-    height: 100%;
-}
-  
-  
-.contenedor{
-  width: 100%;
-  position: relative;
-  height: 780px;
-}
-
-.botones{
-  font-size: 30px;
-  width: 70px;
-  height: 70px;
-  line-height: 70px;
-  border-radius: 50%;
-  background-color: rgba(0, 0, 0, .7);
-  text-align: center;
-  font-weight: bold;
-  position: absolute;
-  color: #ffffff;
-  box-shadow: 0 0 10px rgba(255, 255, 255, .6);
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
-
-}
-
-.botones:hover{
-  cursor: pointer;
-  transform: scale(1.2,1.2);
-}
-
-.atras{
-  left: 2%;
-  top: calc(50% - 70px);
-}
-
-.adelante{
-  right: 2%;
-  top: calc(50% - 70px)
-}
-
-.salto {
-    width: 100%;        
-    height: 50px;          
-    background: white;        
-}
-
-
-.cuadrado {
-    width: 100%;
-    background: rgba(35, 0, 46, 0.384);
-    padding-left: 35%;
-    padding-right: 35%;
-    padding-top: 2%;
-    text-align: center;
-    font-family: 'Poppins';
-    font-size: 60px;
-    color: #ffffff;
-}
-
-.metas {
+.cuadro {
     width: 100%;
     background: rgba(255, 255, 255, 0.384);
     padding-left:35%;
@@ -113,11 +47,9 @@ img{
     font-family: 'Poppins';
     font-size: 60px;
     color: #000000;
-    border-image: 50%;
-    border-color: rgba(201, 182, 207, 0.63);
 }
 
-.metas2 {
+.cuadro2 {
     width: 100%;
     background: rgba(201, 182, 207, 0.63);
     padding-left: 35%;
@@ -126,5 +58,7 @@ img{
     text-align: left;
     font-family: 'Poppins';
     font-size: 60px;
-    color: #000000;
+    color: #000000;
 }
+
+
